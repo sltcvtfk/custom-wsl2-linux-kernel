@@ -1,18 +1,14 @@
 # Custom WSL2 Linux Kernel
 
-This repository is forked from the excellent [Windows WSL2 Kernel Build Script
-repo by
-slyfox1186](https://github.com/slyfox1186/windows-wsl2-kernel-build-script).
+This repository is forked from the excellent [Custom WSL2 Linux Kernel by LGUG2Z](https://github.com/LGUG2Z/custom-wsl2-linux-kernel).
 
 This project aims to use GitHub Actions Workflows to produce and publish
 up-to-date, versioned custom builds of
 [WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel) with
-[`HIDDEV`](https://docs.kernel.org/hid/hiddev.html) and
-[`HIDRAW`](https://docs.kernel.org/hid/hidraw.html) enabled.
+`DMI_SYSFS` and
+`FW_CFG_SYSFS` enabled.
 
-These custom kernels builds can be used to enable full Yubikey passthrough to
-WSL2 using [`usbipd`](https://github.com/dorssel/usbipd-win), with full FIDO2
-functionality.
+These custom kernels builds can be used to user Roblox Sober on Windows.
 
 The versioning scheme of this project matches the versioning scheme used by
 WSL2-Linux-Kernel.
@@ -35,7 +31,7 @@ kernel=C:\\Users\\YOUR_USERNAME\\Downloads\\vmlinux
 - Check that the kernel is running with `uname -sr`
 
 ```
-Linux 5.15.123.1-lgug2z-custom-WSL2
+Linux 5.15.123.1-paname-sober-custom-WSL2
 ```
 
 ## Modification
